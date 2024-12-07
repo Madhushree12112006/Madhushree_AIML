@@ -1,0 +1,19 @@
+//Write a  c program to read as integer value as input from the user & check whether it is a 2 digit number or not ?  
+#include <stdio.h>
+
+int main() 
+{
+    int n;
+    printf("Enter the integer value :");
+    scanf("%d",&n);
+    if((n<=-99 && n>=-10)||(n>=10 && n<=99))
+    {
+        printf("the user input value is two digit number");
+    }
+    else
+    {
+        printf("the user input value is not a two digit number");
+    }
+
+    return 0;
+}

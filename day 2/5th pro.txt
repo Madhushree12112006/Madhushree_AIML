@@ -1,0 +1,17 @@
+/* write a c program to print the even numbrs from 1 to n using while loop*/
+#include <stdio.h>
+
+int main() 
+{
+    int n;
+    printf("Enter an integer :");
+    scanf("%d",&n);
+    printf(" even numbers from 1 to %d \n",n);
+    int i=2;
+    while(i<=n)
+    {
+        if(i%2==0)
+         printf("%d \n",i);  
+         i++;
+    }
+    return 0;

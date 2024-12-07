@@ -1,0 +1,19 @@
+//Write a  c program to read as integer value as input from the user & check whether it is a 3 digit number or not ?  
+#include <stdio.h>
+
+int main() 
+{
+    int n;
+    printf("Enter the integer value :");
+    scanf("%d",&n);
+    if((n<=-999 && n>=-100)||(n>=100 && n<=999))
+    {
+        printf("the user input value is three digit number");
+    }
+    else
+    {
+        printf("the user input value is not a three  digit number");
+    }
+
+    return 0;
+}

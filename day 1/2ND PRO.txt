@@ -1,0 +1,19 @@
+//write a C Program to check whether the user entered integer is +ve number or -ve number?
+#include <stdio.h>
+
+int main()
+{
+    int Num;
+    printf(" Enter the Integer value:");
+    scanf("%d",&Num);
+    if(Num>0)
+    {
+        printf("Number is positive");
+    
+    }
+    else
+    {
+        printf("Number is negative");
+    }
+    return 0;
+}
